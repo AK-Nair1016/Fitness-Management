@@ -1,0 +1,358 @@
+/* Reset and Common Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #02305e !important;
+}
+
+.navbar .nav-item {
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Signup Page Styles */
+.signup-container {
+  margin-top: 50px;
+}
+
+.signup-form {
+  background-color: #16468d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+}
+
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+
+.signup-form label {
+  font-weight: bold;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #02305e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button[type="submit"]:hover {
+  background-color: #0b2961;
+}
+
+.signup-form .text-center {
+  margin-top: 10px;
+}
+
+.signup-form .text-center a {
+  color: #02305e;
+}
+
+.signup-form .text-center a:hover {
+  text-decoration: none;
+  color: #021230;
+}
+
+/* Gym Dashboard Styles */
+.gym-dashboard-container {
+  background-color: aqua; /* Replace 'yourcolor' with your desired color */
+}
+
+/* Container Styles */
+.container {
+  margin-top: 0px;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Card Styles */
+.card {
+  margin-bottom: 20px;
+  border: none; /* Remove card border */
+  transition: transform 0.3s ease;
+  background-color: #706f6fac; /* Change card background color */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase card size on hover */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px; /* Set image height */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-top-left-radius: 10px; /* Rounded corners for top-left and top-right */
+  border-top-right-radius: 10px;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #02305e;
+  border-color: #02305e;
+}
+
+.btn-primary:hover {
+  background-color: #021230;
+  border-color: #021230;
+}
+
+/* Additional Styles */
+.mt-4 {
+  margin-top: 4rem;
+}
+
+/* About Content Styles */
+.about-content {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+}
+
+.about-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-content ul li {
+  margin-bottom: 5px;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 5rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+/* Section Titles Styles */
+.section-title h2 {
+  font-weight: bold;
+}
+
+/* Services Section Styles */
+.single-service-item h5 {
+  font-weight: bold;
+  color: #02305e;
+}
+
+.single-service-item p {
+  font-size: 16px;
+  color: #8f8fa8;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #06099a;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+/* Gallery Styles */
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  background-color: #0f6aaf; /* Change table header color */
+}
+
+/* Header Styles */
+h1, h2 {
+  color: #007bff;
+}
+
+h2 {
+  text-align: center; /* Center align the text */
+  font-size: 40px; /* Increase font size */
+  font-weight: bold; /* Make it bold */
+}
+
+
+
+/* Container Margin */
+.container {
+  margin-top: 50px;
+}
+
+/* Diet Table Styles with Day Division */
+.diet-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.diet-table th, .diet-table td {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+.diet-table th {
+  background-color: #0581a7; /* Change diet table header color */
+  font-size: large;
+}
+
+/* Alternate Background Colors for each Day */
+.diet-table tr:nth-child(even) {
+  background-color:rgb(0, 141, 187); /* Light blue background for even rows */
+}
+
+.diet-table tr:nth-child(odd) {
+  background-color:rgb(84, 158, 208); /* Lighter blue background for odd rows */
+}
+
+/* Day Separator Styles */
+.day-separator {
+  background-color: #388dc3; /* Add your preferred background color here */
+}
+
+/* Table Styles */
+.member-table-container {
+  margin-top: 20px;
+}
+
+.member-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.member-table th, .member-table td {
+  border: 1px solid rgb(13, 97, 165);
+  padding: 8px;
+  text-align: left;
+}
+
+.member-table th {
+  background-color: #158bc2;
+}
+
+.member-table tr:nth-child(even) {
+  background-color: #408db7;
+  font-size: large;
+}
+.member-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.member-table tr:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Search Bar Styles */
+.search-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container input[type=text] {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #d1d5d9;
+  border-radius: 5px;
+  font-size: 20px; /* Increase font size */
+}
+
+.search-container button {
+  padding: 10px 20px; /* Increase padding */
+  background-color: #0a2650; /* Change button background color */
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+.search-container button:hover {
+  background-color: #033665; /* Darken button color on hover */
+}
